@@ -1,0 +1,141 @@
+/* Utilities */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.for-all {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-image: url(./pyimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  position: relative;
+  color: white;
+  z-index: 1;
+  transition: transform 0.5s ease, background-image 10s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid crimson;
+}
+.card-footer {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+.card-footer ul li {
+  margin: 5px 0;
+}
+.card-footer ul li span {
+  font-weight: bold;
+}
+
+/* Navbar */
+
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 100px;
+  justify-content: space-between;
+  border-bottom: 3px solid crimson;
+}
+
+.nav li {
+  margin: 0 50px;
+}
+.nav li a {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+/* Functions */
+
+/* Header-info */
+
+.header-info {
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  margin-bottom: 30px;
+}
+
+.header-info div {
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  margin: 10px 10px;
+  padding: 50px;
+  text-align: center;
+  min-height: 150px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .heading {
+  font-size: 2.5rem;
+  grid-column: 1 / 4;
+  margin-left: 20px 10px;
+}
+
+/* Footer */
+.footer {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-top: 50px;
+  border-top: 3px solid crimson;
+}

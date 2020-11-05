@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>PyHelp</title>
+</head>
+<body>
+    <!--------------------------------------------------- Navbar ------------------------------------------------>
+    <div class="for-all nav flex">
+        <a href="#"><i class="fab fa-python fa-3x"></i></a>
+        <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Next</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+    </div>
+    <!------------------------------------------------ Header-info ---------------------------------------------->
+    <div class="for-all header-info grid">
+        <div class="strings"><h1>Strings</h1></div>
+        <div class="lists"><h1>Lists</h1></div>
+        <div class="tuples"><h1>Tuples</h1></div>
+        <div class="sets"><h1>Sets</h1></div>
+        <div class="dictionaries"><h1>Dictionaries</h1></div>
+    </div>
+    <!----------------------------------------------------- Functions ----------------------------------------------->
+    <div class="functions">
+        <div class="for-all container grid">
+
+            <h1 class="heading">Functions</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h3>len()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Strings, Lists, Tuples, Sets, Dictionaries</li>
+                        <li><span class="bold">Function: </span>Prints the total number of elements in the sequence</li>
+                        <li><span class="bold">Args: no arguments</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>min(), max()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Tuples, Sets</li>
+                        <li><span class="bold">Function: </span>Prints the greatest or smallest integer in a sequence fo integers</li>
+                        <li><span class="bold">Args: no arguments</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>sum()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Tuples, Sets</li>
+                        <li><span class="bold">Function: </span>Prints the sum of all integers in the sequence</li>
+                        <li><span class="bold">Args: no arguments</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>sorted()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Tuples</li>
+                        <li><span class="bold">Function: </span>Prints a new sequence, of the original sequence passed as the argument.</li>
+                        <li><span class="bold">Args: </span><span>(</span> sequence <span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>del()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Tuples, Sets, Dictionaries</li>
+                        <li><span class="bold">Function: </span>Deletes the sequence passed as argument. (It frees the memory occupied by the sequence)</li>
+                        <li><span class="bold">Args: </span><span>(</span> sequence <span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+    </div>
+    <!---------------------------------------------- Common Methods ------------------------------------------------>
+    <div class="common-methods">
+        <div class="for-all container grid">
+        
+            <h1 class="heading">Common Methods</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.count()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Strings, Lists, Tuples</li>
+                        <li><span class="bold">Function: </span>No. of occurrences of a substring or an element</li>
+                        <li><span class="bold">Args: </span><span>(</span> substring, start_index(o), stop_index(o)<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.index()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Strings, Lists, Tuples</li>
+                        <li><span class="bold">Function: </span>Index of a substring.</li>
+                        <li><span class="bold">Args: </span><span>(</span> substring, start_index(o), stop_index(o)<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.remove()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Sets </li>
+                        <li><span class="bold">Function: </span>Removes the specified element.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>element<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.clear()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Sets, Dictionaries </li>
+                        <li><span class="bold">Function: </span>Removes all items from the sequence.
+                        </li>
+                        <li><span class="bold">Args: no arguments</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.copy()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Sets, Dictionaries </li>
+                        <li><span class="bold">Function: </span>Returns a shallow copy of the original sequence</span>
+                        </li>
+                        <li><span class="bold">Args: no arguments</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+    </div>
+    <!------------------------------------------------  Header -------------------------------------------------->
+    <header>
+        <div class="for-all container grid">
+            <!------------------------ strings  ----------------------------->
+            <h1 class="heading">Strings</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.upper(), .lower()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Strings Only</li>
+                        <li><span class="bold">Function: </span>Converts to uppercase or lowercase</li>
+                        <li><span class="bold">Args: no arguments</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.title()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Strings Only</li>
+                        <li><span class="bold">Function: </span>Converts first letter of each word to uppercase.</li>
+                        <li><span class="bold">Args: no arguments</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.isupper(), .islower()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Strings Only</li>
+                        <li><span class="bold">Function: </span>Checks if all characters are uppercase or lowercase</li>
+                        <li><span class="bold">Args: no arguments</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <!----------------------------- Lists ---------------------------->
+            <h1 class="heading">Lists</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.append()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists Only</li>
+                        <li><span class="bold">Function: </span>Adds an element to the end of the list.</li>
+                        <li><span class="bold">Args: </span><span>(</span> element <span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.extend()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists Only</li>
+                        <li><span class="bold">Function: </span>Adds a sequence to the end of the list.</li>
+                        <li><span class="bold">Args: </span><span>(</span> sequence <span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.insert()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists Only</li>
+                        <li><span class="bold">Function: </span>Adds an element to the specified index.</li>
+                        <li><span class="bold">Args: </span><span>(</span> index, element <span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.pop()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists Only</li>
+                        <li><span class="bold">Function: </span>Removes and returns the element at the specified index. Default value is -1. </li>
+                        <li><span class="bold">Args: </span><span>(</span>index(o)<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>.sort()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists Only</li>
+                        <li><span class="bold">Function: </span>Sorts the elements based on the specified args.</li>
+                        <li><span class="bold">Args: </span><span>(</span>key= (o), reverse= (o)<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!---------------------------------- Sets --------------------------------->
+            <h1 class="heading">Sets</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.add()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets Only</li>
+                        <li><span class="bold">Function: </span>Adds a sequence or an element at random position(unordered).
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>element<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.issubset()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets Only</li>
+                        <li><span class="bold">Function: </span>Checks if the element is the subset of the set or not.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>element<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.update()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets, Dictionaries </li>
+                        <li><span class="bold">Function: </span>Add items from other iterables to the set. </br>
+                        <span>Note: if dictionaries are passed to the method only the keys are added to the set.</span>    
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>iterable<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.union()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets Only</li>
+                        <li><span class="bold">Function: </span>Returns a new set from the distinct elements from all sets passed as args.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>multiple sets<span>)</span>
+                        </li>
+                        <li><span class="bold">Symbol: </span>
+                        " | "</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.intersection()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets Only</li>
+                        <li><span class="bold">Function: </span>Returns a new set with common elements of sets.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>multiple sets<span>)</span>
+                        </li>
+                        <li><span class="bold">Symbol: </span>
+                            " & "</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.difference()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets Only</li>
+                        <li><span class="bold">Function: </span>Returns a set of elements which are not in one set based on the passed parameters.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>multiple sets<span>)</span>
+                        </li>
+                        <li><span class="bold">Symbol: </span>
+                            " - "</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.symmetric_difference()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets Only</li>
+                        <li><span class="bold">Function: </span>Reverse of intersection. 
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>multiple sets<span>)</span>
+                        </li>
+                        <li><span class="bold">Symbol: </span>
+                            " ^ "</li>
+                    </ul>
+                </div>
+            </div>
+            <!----------------------------------- Dictionaries --------------------------------->
+            <h1 class="heading">Dictionaries</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.update()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Sets, Dictionaries </li>
+                        <li><span class="bold">Function: </span>Add items from other iterables to the set. </br>
+                            <span>Note: It takes either a dictionary or an iterable object of key-value pair. </span>
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>iterable<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.get()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span> Dictionaries </li>
+                        <li><span class="bold">Function: </span>Returns the value of specified key if the key is in dictionary otherwise gives none.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>key, value(o)<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.popitem()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span> Dictionaries </li>
+                        <li><span class="bold">Function: </span>Removes and returns the last item inserted.
+                        </li>
+                        <li><span class="bold">Args: no arguments</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>.pop()</h3>
+                </div>
+                <div class="card-footer">
+                    <ul>
+                        <li><span class="bold">Used On: </span>Lists, Dictionaries </li>
+                        <li><span class="bold">Function: </span>Removes and returns the item having the given key.
+                        </li>
+                        <li><span class="bold">Args: </span><span>(</span>key, default(fallback_value)(o)<span>)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------------- Footer -------------------------------------------->
+    <div class="footer">
+        <h1>The end</h1>
+    </div>
+</body>
+</html>
